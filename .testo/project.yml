@@ -1,6 +1,7 @@
 formatVersion: 1
-name: WLS SSP Core
+name: Initech
 product: ssp
-type: core
+type: client
 caseFormat: structured-markdown-v1
 caseLabelPrefix: TC
+parent: {repoId: '1429134234', provider: github, fullName: testomddemo/wls-ssp-core-test-cases}

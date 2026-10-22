@@ -5,5 +5,5 @@ fields:
   priority: {type: string, required: true, default: P2, enum: [P1, P2, P3]}
   tags: {type: array, required: false, items: {type: string}}
   automated: {type: boolean, required: true}
-  estimatedMinutes: {type: integer, required: false}
+  estimatedMinutes: {type: integer, required: true}
   riskScore: {type: number, required: false}
